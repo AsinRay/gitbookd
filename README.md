@@ -30,4 +30,5 @@
 sudo echo "DOCKER_OPTS=\"--registry-mirror=https://registry.docker-cn.com\"" >> /etc/default/docker
 service docker restart
 ```
+
 您也可以使用[Docker CN 指引](https://www.docker-cn.com/registry-mirror)来设置您的registry mirror.
